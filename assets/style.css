@@ -1,0 +1,14 @@
+body {
+    background-color: var(--roxo-escuro);
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    color: white;
+}
+
+.main__about {
+    color: white;
+    flex-direction: column;
+}
