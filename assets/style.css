@@ -6,9 +6,115 @@ body {
 .main {
     display: flex;
     color: white;
+    flex-direction: column;
+}
+
+.main__box {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 18.2rem;
+    margin-top: 13rem;
+}
+
+.main__image {
+    width: 50rem;
+    height: 50rem;
+    border-radius: 1rem;
+    opacity: 80%;
 }
 
 .main__about {
+    display: flex;
+    width: 48.3rem;
+    height: 43rem;
     color: white;
     flex-direction: column;
+    background-color: rgba(196, 196, 196, 0.2);
+    border-radius: 1rem;
+    padding: 1rem 4rem;
+    justify-content: space-around;
+}
+
+.main__about-title {
+    font-family: var(--questrial);
+    font-weight: 400;
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+
+.main__about-paragraph {
+    font-size: 2.6rem;
+    font-family: var(--ubuntu);
+    font-weight: 300;
+    line-height: 3rem;
+}
+
+.main__button {
+    width: 51rem;
+    /* height: 6rem; */
+    background-color: var(--green);
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    font-family: var(--ubuntu);
+    font-weight: 400;
+    text-align: center;
+    padding: 1rem 6rem;
+    margin: 5rem 0;
+    align-self: center;
+}
+
+
+/* Works on Firefox */
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--roxo-escuro) #D05999;
+}
+
+
+/* Works on Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+    width: 1.2rem;
+}
+
+*::-webkit-scrollbar-track {
+    background: #D05999;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--roxo-escuro);
+    border: .3px solid rgba(196, 196, 196, 0.2);
+}
+
+
+/* sobre.html css part*/
+
+.main__title {
+    font-family: var(--questrial);
+    font-weight: 400;
+    font-size: 4rem;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.main__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    background-color: rgba(196, 196, 196, 0.2);
+}
+
+.part {
+    width: 15rem;
+    height: 15rem;
+}
+
+.insta {
+    width: 6.4rem;
+    height: 6.4rem;
 }

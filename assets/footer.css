@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: .1px solid var(--line-color);
+    padding: 4rem 0;
+}
+
+.footer__disclaimer {
+    font-family: var(--questrial);
+    font-size: 3rem;
+    font-weight: 400;
+    color: white;
+}
