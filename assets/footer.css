@@ -12,3 +12,8 @@
     font-weight: 400;
     color: white;
 }
+
+.footer__disclaimer a,
+.footer__disclaimer a:visited {
+    color: lightblue;
+}

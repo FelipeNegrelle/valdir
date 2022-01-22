@@ -94,17 +94,28 @@ body {
 
 /* sobre.html css part*/
 
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin: 5rem auto;
+}
+
 .main__title {
     font-family: var(--questrial);
     font-weight: 400;
     font-size: 4rem;
     text-decoration-line: underline;
     text-align: center;
+    margin-top: 3rem;
 }
 
 .main__cards {
     display: flex;
+    width: 20rem;
     flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
     gap: 5rem;
     background-color: rgba(196, 196, 196, 0.2);
 }
@@ -112,9 +123,18 @@ body {
 .part {
     width: 15rem;
     height: 15rem;
+    border-radius: .5rem;
 }
 
 .insta {
     width: 6.4rem;
     height: 6.4rem;
+    padding-bottom: 1rem;
+}
+
+#imgPart {
+    width: 75rem;
+    height: 39.3rem;
+    border-radius: .5rem;
+    margin: 0 auto 5rem auto;
 }
