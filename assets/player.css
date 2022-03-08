@@ -1,0 +1,25 @@
+.main {
+    align-items: center;
+    justify-content: center;
+}
+
+.player {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    max-width: 90rem;
+    max-height: 45rem;
+    background: linear-gradient(180deg, #3E486F 0%, rgba(62, 72, 111, 0) 100%);
+    box-shadow: 1px 1px 6px 4px #000000;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3rem 0;
+
+}
+
+.player__div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

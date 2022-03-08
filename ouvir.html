@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valdir | Ouvir</title>
     <link rel="stylesheet" href="./assets/base.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/header.css">
     <link rel="stylesheet" href="./assets/footer.css">
     <link rel="stylesheet" href="./assets/responsive.css">
+    <link rel="stylesheet" href="./assets/player.css">
 </head>
 
 <body>
@@ -30,12 +32,22 @@
         <h1 class="main__title">Ouça aqui:</h1>
         <div class="player">
             <img src="#" alt="imagem do episódio" class="player__img">
-            <h1 class="player__title">Título</h1>
-            <audio src="#" class="player__audio"></audio>
-            <div class="player__button">
-                <button class="player__button-return"></button>
-                <checkbox class="player__button-pause"></checkbox>
-                <button class="player__button-next"></button>
+            <div class="player__div">
+                <h1 class="player__title">Título</h1>
+                <audio controls class="player__audio"></audio>
+                <div class="player__button">
+                    <button class="player__button-return">
+                        <i class="material-icons">skip_previous</i>
+                    </button>
+                    
+                    <button class="player__button-pause">
+                        <i class="material-icons">play_arrow</i>
+                    </button>
+                    
+                    <button class="player__button-next">
+                    <i class="material-icons">skip_next</i>
+                    </button>
+            </div>
             </div>
         </div>
     </main>
@@ -45,7 +57,8 @@
             <a href="https://github.com/felipenegrelle" target="_blank">made by Felipe</a>
         </p>
     </footer>
-
+    <script src="./assets/scripts/episodes.js" type="module"></script>
+    <script src="./assets/scripts/index.js" type="module"></script>
 </body>
 
 </html>
