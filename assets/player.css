@@ -23,3 +23,21 @@
     flex-direction: column;
     gap: 2rem;
 }
+
+.player__button {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player__button-return, .player__button-pause, .player__button-next {
+    background: none;
+    border: none;
+    width: 2rem;   
+}
+
+
+.player__button-return i, .player__button-pause i, .player__button-next i {
+    font-size: 6rem;
+    cursor: pointer;
+}    

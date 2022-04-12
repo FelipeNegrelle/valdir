@@ -15,6 +15,7 @@ video to learn how to do it: https://www.youtube.com/watch?v=vqrjFnq3-uo&t=123s
 */ 
 window.addEventListener('load', () => {
     player.start();
+    player.play();
 })
 
 console.log(data[0].title, data[0].id, data[20].id);

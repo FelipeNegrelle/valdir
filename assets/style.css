@@ -120,6 +120,13 @@ body {
     background-color: rgba(196, 196, 196, 0.2);
 }
 
+.main__cards:hover {
+    background-color: rgba(196, 196, 196, 0.4);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 200ms;
+}
+
 .part {
     width: 15rem;
     height: 15rem;
